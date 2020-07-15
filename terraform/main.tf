@@ -8,3 +8,7 @@ module "bionic" {
     source = "../modules/ubuntu-repo-manager"
     codename = "bionic"
 }
+module "eoan" {
+    source = "../modules/ubuntu-repo-manager"
+    codename = "eoan"
+}
