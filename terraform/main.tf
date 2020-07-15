@@ -1,7 +1,7 @@
 provider "nexus" {
-    password = var.nexus_password #"admin123"
-    url = var.nexus_url #"https://nexus.internal.murawsky.net"
-    username = var.nexus_username #"admin"
+    password = var.nexus_password 
+    url = var.nexus_url 
+    username = var.nexus_username 
 }
 
 module "bionic" {

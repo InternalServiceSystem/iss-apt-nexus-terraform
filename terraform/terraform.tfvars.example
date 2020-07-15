@@ -1,0 +1,3 @@
+nexus_username = "admin"
+nexus_url = "https://nexus.local"
+nexus_password = "admin123"
