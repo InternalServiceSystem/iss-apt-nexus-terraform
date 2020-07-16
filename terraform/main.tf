@@ -5,10 +5,14 @@ provider "nexus" {
 }
 
 module "bionic" {
-    source = "../modules/ubuntu-repo-manager"
+    source  = "InternalServiceSystem/ubuntu-repo-manager/nexus"
+    version = "0.1.1"
     codename = "bionic"
+    nexus_url = var.nexus_url
 }
 module "eoan" {
-    source = "../modules/ubuntu-repo-manager"
+    source  = "InternalServiceSystem/ubuntu-repo-manager/nexus"
+    version = "0.1.1"
     codename = "eoan"
+    nexus_url = var.nexus_url
 }
