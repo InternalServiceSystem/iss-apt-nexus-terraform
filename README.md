@@ -1,6 +1,6 @@
 # internal.murawsky.net Nexus Configuration
 
-This repository allows nexus to be configured to proxy many remote repositories. It includes the ubuntu-repo-manager module which helps to support this for ubuntu distributions. An example of using this module is included in the terraform directory.
+This repository allows nexus to be configured to proxy many remote repositories. It uses the [terraform-nexus-ubuntu-repo-manager](https://github.com/InternalServiceSystem/terraform-nexus-ubuntu-repo-manager) module which helps to support this for ubuntu distributions.
 
 ## Setup
 
@@ -13,6 +13,7 @@ This repository allows nexus to be configured to proxy many remote repositories.
 ## Related Projects
 
 * [ISS - The Internal Services System](https://github.com/derekmurawsky/ISS) - My implementation of traefik for my home network.
+* [terraform-nexus-ubuntu-repo-manager](https://github.com/InternalServiceSystem/terraform-nexus-ubuntu-repo-manager) - A module I built to make managing ubuntu repos in nexus easier.
 * [internal-nexus](https://github.com/derekmurawsky/internal-nexus) - A nexus container implementation for use with the ISS.
 
 ## TODO
